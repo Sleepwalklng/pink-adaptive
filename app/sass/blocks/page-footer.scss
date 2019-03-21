@@ -28,7 +28,7 @@
 }
 
 .page-footer__wrap {
-  width: 280px;
+  width: 480px;
   margin: 0 auto;
   padding: 47px 0 41px;
   min-height: 284px;
@@ -39,7 +39,7 @@
   align-items: center;
 
   &--index {
-    display: none;
+    display: flex;
   }
 }
 

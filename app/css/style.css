@@ -470,7 +470,7 @@ img {
     display: none; }
 
 .page-footer__wrap {
-  width: 280px;
+  width: 480px;
   margin: 0 auto;
   padding: 47px 0 41px;
   min-height: 284px;
@@ -488,7 +488,9 @@ img {
       -ms-flex-align: center;
           align-items: center; }
   .page-footer__wrap--index {
-    display: none; }
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
 
 .contacts {
   position: relative;
@@ -501,10 +503,7 @@ img {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  min-height: 645px;
-  width: auto;
-  background: url("../img/bg-map-mobile@1x.png") no-repeat center 100%;
-  background-size: cover; }
+  width: auto; }
 
 .contacts__wrap {
   width: 100%;
